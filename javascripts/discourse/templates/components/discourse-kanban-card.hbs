@@ -1,4 +1,8 @@
 <div class="card-row">
+    <span class="topic-category">{{topic.category.name}}</span>
+</div>
+
+<div class="card-row">
     {{topic-status topic=topic}}
     <span class="topic-title">{{topic.title}}</span>
     {{format-date topic.bumpedAt format="tiny" noTitle="true"}}
